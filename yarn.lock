@@ -2,6 +2,15 @@
 # yarn lockfile v1
 
 
+"@aws-cdk/cdk@^0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/cdk/-/cdk-0.13.0.tgz#e416658324241b2b305a7073141b6f38b4ae388d"
+  integrity sha512-TW1ZfQ6X07tWh88Psljm/eMiEA291m3uvpyyQ3W5fei16U3Y5b0+tzZkq3pIFHYuj3S2K+trqXMzL5mlISBrIg==
+  dependencies:
+    "@aws-cdk/cx-api" "^0.13.0"
+    js-base64 "^2.4.5"
+    json-diff "^0.3.1"
+
 "@aws-cdk/cfnspec@^0.13.0":
   version "0.13.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cfnspec/-/cfnspec-0.13.0.tgz#214ed30ecac07a47817624f21dfe0b7e70b1c147"
@@ -22,6 +31,11 @@
   version "0.13.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cx-api/-/cx-api-0.13.0.tgz#7ac091f1db0e061c9c9b593343b85696cc230b2a"
   integrity sha512-rAvlOpRqpo6O+VtyxAJowUfQOesYExAtCTpEinwmf7MvBbCEjuJX62/BX5PttnqBjqQ3jVAk5q1uIg+lU/RemQ==
+
+"@types/node@^10.12.0":
+  version "10.12.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.0.tgz#ea6dcbddbc5b584c83f06c60e82736d8fbb0c235"
+  integrity sha512-3TUHC3jsBAB7qVRGxT6lWyYo2v96BMmD2PTcl47H25Lu7UXtFH/2qqmKiVrnel6Ne//0TFYf6uvNX+HW2FRkLQ==
 
 agent-base@4, agent-base@^4.1.0, agent-base@^4.2.0, agent-base@~4.2.0:
   version "4.2.1"
@@ -816,6 +830,11 @@ jmespath@0.15.0:
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/jmespath/-/jmespath-0.15.0.tgz#a3f222a9aae9f966f5d27c796510e28091764217"
   integrity sha1-o/Iiqarp+Wb10nx5ZRDigJF2Qhc=
+
+js-base64@^2.4.5:
+  version "2.4.9"
+  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.9.tgz#748911fb04f48a60c4771b375cac45a80df11c03"
+  integrity sha512-xcinL3AuDJk7VSzsHgb9DvvIXayBbadtMZ4HFPx8rUszbW1MuNMlwYVC4zzCZ6e1sqZpnNS5ZFYOhXqA39T7LQ==
 
 js-yaml@^3.12.0:
   version "3.12.0"
