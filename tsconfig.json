@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "module": "commonjs",
+    "lib": [
+      "es2018"
+    ],
+    "rootDir": "aws/constructs/src",
+    "outDir": "aws/constructs/dist",
+    "strict": true,
+    "target": "es2018"
+  },
+  "include": [
+    "aws/constructs/src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
